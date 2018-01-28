@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "lerna run --parallel --stream build",
-    "watch": "lerna run --parallel --stream watch"
+    "watch": "lerna run --parallel --stream watch",
+    "watch:babel": "lerna run --parallel --stream watch:babel"
   }
 }

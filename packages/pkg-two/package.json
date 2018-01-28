@@ -6,12 +6,14 @@
   "module": "dist/es/pkg-two.js",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c -w"
+    "watch": "rollup -c -w",
+    "watch:babel": "babel index.js --out-file dist/babel.js --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "rollup": "^0.55.1"
   }
 }
