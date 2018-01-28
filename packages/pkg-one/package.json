@@ -2,8 +2,6 @@
   "name": "pkg-one",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/cjs/pkg-one.js",
-  "module": "dist/es/pkg-one.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",

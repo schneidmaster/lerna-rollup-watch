@@ -2,8 +2,6 @@
   "name": "pkg-two",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/cjs/pkg-two.js",
-  "module": "dist/es/pkg-two.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
