@@ -1,0 +1,13 @@
+{
+  "private": true,
+	"devDependencies": {
+		"lerna": "^2.8.0"
+	},
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run --parallel --stream build",
+    "watch": "lerna run --parallel --stream watch"
+  }
+}

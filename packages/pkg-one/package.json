@@ -1,0 +1,17 @@
+{
+  "name": "pkg-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/pkg-one.js",
+  "module": "dist/es/pkg-one.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.55.1"
+  }
+}
